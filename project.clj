@@ -8,7 +8,9 @@
     [org.clojure/tools.logging "0.3.1"],
     [ch.qos.logback/logback-classic "1.1.3"],
     [schejulure "1.0.1"],
-    [org.clojure/core.async "0.2.374"]
+    [org.clojure/core.async "0.2.374"],
+    [im.chit/hara.io.scheduler "2.3.6"],
+    [me.raynes/conch "0.8.0"]
   ]
   :main ^:skip-aot simple-agent.core
   :target-path "target/%s"
